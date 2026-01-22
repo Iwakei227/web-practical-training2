@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/* リンクの青い線を表示しない */
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* メインの画像をグリッドの配置にする（ここから） */
 .product-list {
@@ -36,3 +41,11 @@
     margin-right: 15px;
 }
 /* headerとfooterを横並びにする（ここまで）*/
+
+/* View More を中央に配置 */
+.link-text {
+    display: block; 
+    /* aタグの内容を移動させるときにブロックとして扱う */
+    text-align: center;
+    margin-top: 40px;
+}
