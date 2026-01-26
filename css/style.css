@@ -113,6 +113,14 @@ a {
         width: auto;    
         /* 縦横比を保ったまま縮小する */
     }
-
+    /* ◆◆◆ここからitemのデザイン◆◆◆ */
+    .item {
+        flex-direction: column;
+    }
+    .item .item-img,
+    .item .item-text {
+        width: 100%;
+    }
+    /* ◆◆◆ここまでitemのデザイン◆◆◆ */
 
 }
