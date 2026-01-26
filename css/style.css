@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* ◆◆◆ここからindexのデザイン◆◆◆ */
+
 /* リンクの青い線を表示しない */
 a {
     text-decoration: none;
@@ -49,6 +51,45 @@ a {
     text-align: center;
     margin-top: 40px;
 }
+
+/* ◆◆◆ここからitemのデザイン◆◆◆ */
+.page-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-between;
+}
+
+.item .item-img {
+    width: 42%;
+}
+
+.item .item-text {
+    width: 50%;
+}
+
+.item .item-img img {
+    width: 100%;
+}
+
+.item .item-text p {
+    margin-bottom: 20px;
+}
+
+/* テーブルの編集 */
+.item table th {
+    text-align: left;
+    font-weight: normal;
+}
+
+.item table td {
+    padding-left: 1em;
+}
+/* ◆◆◆ここまでitemのデザイン◆◆◆ */
 
 /* レスポンシブ対応デザイン */
 @media (max-width: 600px){
