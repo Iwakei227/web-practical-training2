@@ -133,6 +133,25 @@ a {
 }
 
 /* ◆◆◆ここまでcompanyのデザイン◆◆◆ */
+/* ◆◆◆ここからcontactのデザイン◆◆◆ */
+#contact-form {
+    max-width: 600px;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form button {
+    width: 100%;
+    border: 1px solid #dcdbdb;
+    padding: 10px;
+}
+#contact-form input[type="checkbox"],
+#contact-form input[type="radio"] {
+  width: auto;
+  padding: 0;
+  border: 0;
+}
+/* ◆◆◆ここまでcontactのデザイン◆◆◆ */
 
 /* レスポンシブ対応デザイン */
 @media (max-width: 600px){
